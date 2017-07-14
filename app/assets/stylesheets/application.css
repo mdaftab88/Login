@@ -1,0 +1,55 @@
+.container{
+  padding-top: 10px;
+  min-height: 700px;
+  /*background-image: url(http://www.redandblackfilms.com/wp-content/uploads/2014/09/background2.jpg);*/
+  /*background: #02b0ea;*/
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#02b0ea, #d4d9db); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#02b0ea, #d4d9db); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#02b0ea, #d4d9db); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#02b0ea, #d4d9db); /* Standard syntax */
+}
+#login_form_group{
+  padding: 25px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#btn-login{
+  min-width: 130px;
+}
+
+.temp{
+  color: white;
+  font-size: 1.4em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 2px black,
+                1px 4px 4px grey;
+}
+
+#btn-login{
+  color: black;
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 2px 2px grey,
+                1px 4px 4px grey;
+}
+
+
+#parent img{
+    vertical-align: middle;
+    width: 40%;
+    height: 80%;
+}
+
+.col-lg-12  h1{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 2px 2px black,
+                1px 4px 4px grey;
+}
